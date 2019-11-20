@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		0C430CC52385A81100BE1D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C430CC42385A81100BE1D9D /* AppDelegate.swift */; };
 		0C430CC72385A81100BE1D9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C430CC62385A81100BE1D9D /* SceneDelegate.swift */; };
-		0C430CC92385A81100BE1D9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C430CC82385A81100BE1D9D /* ViewController.swift */; };
+		0C430CC92385A81100BE1D9D /* ScheduleListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C430CC82385A81100BE1D9D /* ScheduleListController.swift */; };
 		0C430CCC2385A81100BE1D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C430CCA2385A81100BE1D9D /* Main.storyboard */; };
 		0C430CCE2385A81300BE1D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C430CCD2385A81300BE1D9D /* Assets.xcassets */; };
 		0C430CD12385A81300BE1D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C430CCF2385A81300BE1D9D /* LaunchScreen.storyboard */; };
+		0C430CD92385ACF900BE1D9D /* CreateEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C430CD82385ACF900BE1D9D /* CreateEventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0C430CC12385A81100BE1D9D /* Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C430CC42385A81100BE1D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C430CC62385A81100BE1D9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0C430CC82385A81100BE1D9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0C430CC82385A81100BE1D9D /* ScheduleListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleListController.swift; sourceTree = "<group>"; };
 		0C430CCB2385A81100BE1D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C430CCD2385A81300BE1D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C430CD02385A81300BE1D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C430CD22385A81300BE1D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C430CD82385ACF900BE1D9D /* CreateEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				0C430CC42385A81100BE1D9D /* AppDelegate.swift */,
 				0C430CC62385A81100BE1D9D /* SceneDelegate.swift */,
-				0C430CC82385A81100BE1D9D /* ViewController.swift */,
+				0C430CC82385A81100BE1D9D /* ScheduleListController.swift */,
+				0C430CD82385ACF900BE1D9D /* CreateEventViewController.swift */,
 				0C430CCA2385A81100BE1D9D /* Main.storyboard */,
 				0C430CCD2385A81300BE1D9D /* Assets.xcassets */,
 				0C430CCF2385A81300BE1D9D /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C430CC92385A81100BE1D9D /* ViewController.swift in Sources */,
+				0C430CC92385A81100BE1D9D /* ScheduleListController.swift in Sources */,
 				0C430CC52385A81100BE1D9D /* AppDelegate.swift in Sources */,
 				0C430CC72385A81100BE1D9D /* SceneDelegate.swift in Sources */,
+				0C430CD92385ACF900BE1D9D /* CreateEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@
         <!--Schedule-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Scheduler" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ScheduleListController" customModule="Scheduler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,19 +83,20 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPj-oF-3fX">
-                                <rect key="frame" x="184" y="574" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPj-oF-3fX">
+                                <rect key="frame" x="170.5" y="537" width="73" height="30"/>
+                                <state key="normal" title="New Event"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="TFv-Oc-Upt" firstAttribute="trailing" secondItem="bEf-0g-xjH" secondAttribute="trailing" constant="20" id="6kK-Dc-DWz"/>
                             <constraint firstItem="bEf-0g-xjH" firstAttribute="leading" secondItem="TFv-Oc-Upt" secondAttribute="leading" constant="20" id="Eft-hs-hp2"/>
+                            <constraint firstItem="UPj-oF-3fX" firstAttribute="top" secondItem="8as-fG-gEl" secondAttribute="bottom" constant="8" id="FeZ-L4-PVe"/>
                             <constraint firstItem="8as-fG-gEl" firstAttribute="centerX" secondItem="TIW-j8-1k8" secondAttribute="centerX" id="H9f-LU-DxM"/>
                             <constraint firstItem="8as-fG-gEl" firstAttribute="top" secondItem="bEf-0g-xjH" secondAttribute="bottom" constant="8" id="Ihg-ls-ggU"/>
                             <constraint firstItem="8as-fG-gEl" firstAttribute="centerY" secondItem="TIW-j8-1k8" secondAttribute="centerY" id="XNF-rk-AmW"/>
+                            <constraint firstItem="UPj-oF-3fX" firstAttribute="centerX" secondItem="TIW-j8-1k8" secondAttribute="centerX" id="dsc-t0-LIH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TFv-Oc-Upt"/>
                     </view>
