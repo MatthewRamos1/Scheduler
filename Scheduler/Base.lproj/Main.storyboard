@@ -74,13 +74,35 @@
                     <view key="view" contentMode="scaleToFill" id="TIW-j8-1k8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="8as-fG-gEl">
+                                <rect key="frame" x="47" y="313" width="320" height="216"/>
+                            </datePicker>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Create Event..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bEf-0g-xjH">
+                                <rect key="frame" x="20" y="267" width="374" height="38"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPj-oF-3fX">
+                                <rect key="frame" x="184" y="574" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="TFv-Oc-Upt" firstAttribute="trailing" secondItem="bEf-0g-xjH" secondAttribute="trailing" constant="20" id="6kK-Dc-DWz"/>
+                            <constraint firstItem="bEf-0g-xjH" firstAttribute="leading" secondItem="TFv-Oc-Upt" secondAttribute="leading" constant="20" id="Eft-hs-hp2"/>
+                            <constraint firstItem="8as-fG-gEl" firstAttribute="centerX" secondItem="TIW-j8-1k8" secondAttribute="centerX" id="H9f-LU-DxM"/>
+                            <constraint firstItem="8as-fG-gEl" firstAttribute="top" secondItem="bEf-0g-xjH" secondAttribute="bottom" constant="8" id="Ihg-ls-ggU"/>
+                            <constraint firstItem="8as-fG-gEl" firstAttribute="centerY" secondItem="TIW-j8-1k8" secondAttribute="centerY" id="XNF-rk-AmW"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="TFv-Oc-Upt"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3hd-1V-OK1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1048" y="-623"/>
+            <point key="canvasLocation" x="1047.8260869565217" y="-623.4375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="11G-Rt-y9e">
