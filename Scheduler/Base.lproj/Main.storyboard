@@ -67,10 +67,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="116.51785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Event View Controller-->
         <scene sceneID="Xmz-6Z-n3e">
             <objects>
-                <viewController id="WmQ-7J-R6i" sceneMemberID="viewController">
+                <viewController id="WmQ-7J-R6i" customClass="CreateEventViewController" customModule="Scheduler" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TIW-j8-1k8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,6 +100,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TFv-Oc-Upt"/>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="bEf-0g-xjH" id="Ir7-9I-VC4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3hd-1V-OK1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
