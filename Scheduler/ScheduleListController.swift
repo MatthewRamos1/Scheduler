@@ -14,7 +14,9 @@ class ScheduleListController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func addNewEvent(segue: UIStoryboardSegue) {
+        print("add event")
+    }
 }
 
